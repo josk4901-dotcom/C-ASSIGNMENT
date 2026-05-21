@@ -6,7 +6,7 @@ int main() {
     string studentName, scholarship;
     int marks, attendance;
 
-    // Input details
+    
     cout << "Enter student name: ";
     getline(cin, studentName);
 
@@ -16,7 +16,7 @@ int main() {
     cout << "Enter attendance percentage (0-100): ";
     cin >> attendance;
 
-    // Nested if statements
+    
     if (marks >= 70) {
         if (attendance >= 80) {
             scholarship = "Full Scholarship";
@@ -35,7 +35,7 @@ int main() {
         scholarship = "No Scholarship";
     }
 
-    // Output result
+    
     cout << "\nStudent Name: " << studentName << endl;
     cout << "Scholarship Status: " << scholarship << endl;
 
