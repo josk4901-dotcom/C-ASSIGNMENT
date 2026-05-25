@@ -1,3 +1,4 @@
+//BCS-05-0070/2025   JOSHUA LILA
 #include<iostream>
 using namespace std;
 
@@ -7,7 +8,7 @@ int main(){
 	int finerate;
 	int fineAmount;
 	
-	cout<<"Ënter Book ID";
+	cout<<"Ã‹nter Book ID";
 	cin>>bookID;
 	
 	cout<<"Enter Due Date";
